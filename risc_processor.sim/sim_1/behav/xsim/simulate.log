@@ -1,0 +1,2 @@
+Time resolution is 1 ps
+WARNING: File program.mem referenced on D:/VIVADO/risc_processor/risc_processor.srcs/sources_1/new/risc_processor.v at line 95 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.

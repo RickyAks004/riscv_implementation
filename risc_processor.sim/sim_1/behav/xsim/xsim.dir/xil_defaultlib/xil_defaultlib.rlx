@@ -1,0 +1,16 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+D:/VIVADO/risc_processor/risc_processor.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/alu.v,1763403347,verilog,,D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/control.v,,alu,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/control.v,1763403344,verilog,,D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/data_mem.v,D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/defines.v,control_unit,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/data_mem.v,1763403342,verilog,,D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/forwarding_unit.v,,data_mem,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/defines.v,1763404436,verilog,,,,,,,,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/forwarding_unit.v,1763403657,verilog,,D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/hazard_unit.v,,forwarding_unit,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/hazard_unit.v,1763403339,verilog,,D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/imm_gen.v,,hazard_unit,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/imm_gen.v,1763403337,verilog,,D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/instr_mem.v,,imm_gen,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/instr_mem.v,1763403335,verilog,,D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/regfile.v,,instr_mem,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/regfile.v,1763403081,verilog,,D:/VIVADO/risc_processor/risc_processor.srcs/sources_1/new/risc_processor.v,,regfile,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/tb_riscv.v,1763405309,verilog,,,,tb_riscv,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/VIVADO/risc_processor/risc_processor.srcs/sources_1/new/risc_processor.v,1763404438,verilog,,D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/tb_riscv.v,,risc_processor,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,

@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/forwarding_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/hazard_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/instr_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/risc_processor/risc_processor.srcs/sources_1/new/risc_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module risc_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/risc_processor/risc_processor.srcs/sim_1/new/tb_riscv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_riscv
