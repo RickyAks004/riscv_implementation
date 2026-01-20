@@ -124,7 +124,6 @@ module risc_processor(
                        .forwardA(forwardA), .forwardB(forwardB));
 
     // ALU control and inputs
-    // We'll use id_ex_alu_op to select operation; if more refinement needed use funct fields
     reg [3:0] alu_ctrl;
     always @(*) alu_ctrl = id_ex_alu_op;
 
@@ -168,14 +167,14 @@ module risc_processor(
                 if_id_pc <= pc;
                 if_id_instr <= instr_if;
             end else if (stall) begin
-                // keep if_id registers unchanged to stall
+                // if_id registers unchanged to stall
                 if_id_pc <= if_id_pc;
                 if_id_instr <= if_id_instr;
             end
 
-            // ID/EX pipeline update (if stall, insert bubble)
+            // ID/EX pipeline update
             if (stall) begin
-                // insert bubble: clear control signals
+                // insert clear control signals
                 id_ex_pc <= 0;
                 id_ex_rd1 <= 0; id_ex_rd2 <= 0; id_ex_imm <= 0;
                 id_ex_rs1 <= 0; id_ex_rs2 <= 0; id_ex_rd <= 0;
@@ -186,7 +185,7 @@ module risc_processor(
                 id_ex_pc <= if_id_pc;
                 id_ex_rd1 <= rf_rd1;
                 id_ex_rd2 <= rf_rd2;
-                // Choose immediate according to alu_src: we'll store selected imm in id_ex_imm
+                // store selected imm in id_ex_imm
                 case (id_alu_src)
                     2'b00: id_ex_imm <= 32'b0;
                     2'b01: id_ex_imm <= id_imm_i;
@@ -220,7 +219,7 @@ module risc_processor(
                 default: alu_a <= id_ex_rd1;
             endcase
 
-            // B input depends on alu_src: choose imm or forwarded register data
+            // choose imm or forwarded register data
             case (forwardB)
                 2'b00: b_from_reg <= id_ex_rd2;
                 2'b10: b_from_reg <= ex_mem_alu_result;
